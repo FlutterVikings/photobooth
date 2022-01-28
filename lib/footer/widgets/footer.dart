@@ -56,21 +56,11 @@ class _ColumnFooter extends StatelessWidget {
           alignment: WrapAlignment.center,
           runSpacing: 16,
           children: const [
-            FooterGoogleIOLink(),
+            FooterFlutterVikingsLink(),
             SizedBox(width: 30),
             FooterCodelabLink(),
             SizedBox(width: 30),
             FooterHowItsMadeLink(),
-          ],
-        ),
-        gap,
-        Wrap(
-          alignment: WrapAlignment.center,
-          runSpacing: 16,
-          children: const [
-            FooterTermsOfServiceLink(),
-            SizedBox(width: 30),
-            FooterPrivacyPolicyLink(),
           ],
         ),
       ],
@@ -88,15 +78,12 @@ class _RowFooter extends StatelessWidget {
       children: const [
         FooterMadeWithLink(),
         Spacer(),
-        FooterGoogleIOLink(),
+        FooterFlutterVikingsLink(),
         gap,
         FooterCodelabLink(),
         gap,
         FooterHowItsMadeLink(),
         gap,
-        FooterTermsOfServiceLink(),
-        gap,
-        FooterPrivacyPolicyLink(),
       ],
     );
   }

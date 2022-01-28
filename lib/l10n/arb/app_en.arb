@@ -1,6 +1,6 @@
 {
     "@@locale": "en",
-    "landingPageHeading": "Welcome to the I\u2215O Photo Booth",
+    "landingPageHeading": "Welcome to the Flutter Vikings Photo Booth",
     "@landingPageHeading": {
         "description": "Heading shown on the landing page."
     },
@@ -19,6 +19,10 @@
     "footerMadeWithFlutterLinkText": "Flutter",
     "@footerMadeWithFlutterLinkText": {
         "description": "Text on the link shown on the footer which navigates to the Flutter page"
+    },
+    "footerFlutterVikingsLinkText": "Flutter Vikings",
+    "@footerFlutterVikingsLinkText": {
+        "description": "Text on the link shown on the footer which navigates to the Flutter Vikings page"
     },
     "footerMadeWithFirebaseLinkText": "Firebase",
     "@footerMadeWithFirebaseLinkText": {
@@ -64,7 +68,7 @@
     "@sharePageSuccessCaption1": {
         "description": "First part of the caption shown at the bottom of the share page after successful share."
     },
-    "sharePageSuccessCaption2": "flutter-photo-booth@google.com",
+    "sharePageSuccessCaption2": "team@fluttervikings.com",
     "@sharePageSuccessCaption2": {
         "description": "Second part of the caption shown at the bottom of the share page after successful share."
     },
@@ -84,7 +88,7 @@
     "@sharePageDownloadButtonText": {
         "description": "Button text shown on the share page which downloads the taken photo."
     },
-    "socialMediaShareLinkText": "Just took a selfie at the #IOPhotoBooth. See you at #GoogleIO!",
+    "socialMediaShareLinkText": "Just took a selfie at the #FlutterVikingsPhotoBooth. See you at #FlutterVikings!",
     "@socialMediaShareLinkText": {
         "description": "Text that is put into the social media share URL link."
     },
@@ -96,7 +100,7 @@
     "@sharePageSocialMediaShareClarification1": {
         "description": "First part of the text shown at the bottom of the share page that clarifies how photos are stored on the backend when shared on social medias"
     },
-    "sharePageSocialMediaShareClarification2": "flutter-photo-booth@google.com",
+    "sharePageSocialMediaShareClarification2": "team@fluttervikings.com",
     "@sharePageSocialMediaShareClarification2": {
         "description": "Second part of the text shown at the bottom of the share page that clarifies how photos are stored on the backend when shared on social medias"
     },
@@ -116,7 +120,7 @@
     "@sharePageErrorHeading": {
         "description": "Heading shown on the share page when an error occurs."
     },
-    "sharePageErrorSubheading": "Please make sure your device and browser are up to date. If this issue persists, please contact flutter-photo-booth@google.com.",
+    "sharePageErrorSubheading": "Please make sure your device and browser are up to date. If this issue persists, please contact team@fluttervikings.com.",
     "@sharePageErrorSubheading": {
         "description": "Subheading shown on the share page when an error occurs."
     },
@@ -124,7 +128,7 @@
     "@shareDialogHeading": {
         "description": "Heading shown on the share dialog."
     },
-    "shareDialogSubheading": "Let everyone know you're at Google I\u2215O by sharing your photo & updating your profile picture during the event!",
+    "shareDialogSubheading": "Let everyone know you're at Flutter Vikings by sharing your photo & updating your profile picture during the event!",
     "@shareDialogSubheading": {
         "description": "Subheading shown on the share dialog."
     },
@@ -184,7 +188,7 @@
     "@photoBoothCameraErrorSubheadline1": {
         "description": "Text displayed on the first subheadline on the photobooth page when unknown error occurs"
     },
-    "photoBoothCameraErrorSubheadline2": "If this issue persists, please contact flutter-photo-booth@google.com",
+    "photoBoothCameraErrorSubheadline2": "If this issue persists, please contact team@fluttervikings.com",
     "@photoBoothCameraErrorSubheadline2": {
         "description": "Text displayed on the second subheadline on the photobooth page when unknown error occurs"
     },
@@ -235,6 +239,10 @@
     "goToGoogleIOButtonText": "Go to Google I\u2215O",
     "@goToGoogleIOButtonText": {
         "description": "Text displayed on the button to navigate to Google I\u2215O"
+    },
+    "goToFlutterVikingsButtonText": "Go to Flutter Vikings",
+    "@goToFlutterVikingsButtonText": {
+        "description": "Text displayed on the button to navigate to Flutter Vikings"
     },
     "clearStickersDialogHeading": "Clear all props?",
     "@clearStickersDialogHeading": {

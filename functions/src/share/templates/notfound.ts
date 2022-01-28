@@ -36,7 +36,7 @@ export default `
         <img src="{{{assetUrls.notFoundPhoto}}}">
       </div>
       <div class="text">
-        <h1>Taken with I/O Photo Booth</h1>
+        <h1>Taken with Flutter Vikings Photo Booth</h1>
         <h2>Oops! This photo is gone, but that doesn't mean the fun has to end.</h2>
         <a class="share-btn" href="/">Take your own</a>
       </div>

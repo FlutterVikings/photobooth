@@ -1,5 +1,5 @@
 {
-  "name": "io-photobooth-api",
+  "name": "flutter-vikings-photobooth-api",
   "private": true,
   "main": "lib/index.js",
   "engines": {
@@ -17,7 +17,7 @@
     "start": "npm run shell",
     "test:coverage": "jest --collect-coverage",
     "test:ts": "mocha -r ts-node/register --reporter spec tests/**/*.js",
-    "test:upload": "gsutil cp testdata/upload.jpeg gs://io-photobooth-dev.appspot.com/uploads",
+    "test:upload": "gsutil cp testdata/upload.jpeg gs://flutter-vikings-photobooth-dev.appspot.com/uploads",
     "test": "jest",
     "watch": "tsc --watch"
   },

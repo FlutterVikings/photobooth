@@ -66,7 +66,7 @@ main {
 }
 
 h1, h2 {
-  color: white;
+  color: black;
   margin-block-start: 0;
   margin-block-end: 0;
 }
@@ -104,7 +104,7 @@ h2 {
 
 footer {
   width: 100%;
-  color: white;
+  color: black;
   font-size: 14px;
   font-weight: 100;
   flex-direction: column;
@@ -120,7 +120,7 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: black;
   text-decoration: none;
   white-space: nowrap;
 }

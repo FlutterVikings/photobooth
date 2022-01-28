@@ -20,17 +20,17 @@ const BaseHTMLContext: Record<string, string | Record<string, string>> = {
   shareImageUrl: '',
   assetUrls: {
     favicon: bucketPathForFile('public/favicon.png'),
-    bg: bucketPathForFile('public/background.jpg'),
-    bgMobile: bucketPathForFile('public/background-mobile.jpg'),
+    bg: bucketPathForFile('public/background.png'),
+    bgMobile: bucketPathForFile('public/background.png'),
     notFoundPhoto: bucketPathForFile('public/404-photo.png'),
     fixedPhotosLeft: bucketPathForFile('public/table-photos-left.png'),
     fixedPhotosRight: bucketPathForFile('public/table-photos-right.png'),
   },
   meta: {
-    title: 'Google I/O Photo Booth',
+    title: 'Flutter Vikings Photo Booth',
     desc: (
-      'Take a photo in the I/O Photo Booth with your favorite Google Developer Mascots! ' +
-      'Built with Flutter & Firebase for Google I/O 2021.'
+      'Take a photo in the Flutter Vikings Photo Booth! ' +
+      'Originally built with Flutter & Firebase for Google I/O 2021.'
     ),
   },
   footer: footerTmpl,

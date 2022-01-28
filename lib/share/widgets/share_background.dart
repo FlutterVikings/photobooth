@@ -12,7 +12,7 @@ class ShareBackground extends StatelessWidget {
           width: double.infinity,
           height: double.infinity,
           child: Image.asset(
-            'assets/backgrounds/photobooth_background.jpg',
+            'assets/backgrounds/photobooth_background.png',
             repeat: ImageRepeat.repeat,
             filterQuality: FilterQuality.high,
           ),
@@ -30,26 +30,6 @@ class ShareBackground extends StatelessWidget {
               ],
             ),
           ),
-        ),
-        ResponsiveLayoutBuilder(
-          large: (_, __) => Align(
-            alignment: Alignment.bottomLeft,
-            child: Image.asset(
-              'assets/backgrounds/yellow_bar.png',
-              filterQuality: FilterQuality.high,
-            ),
-          ),
-          small: (_, __) => const SizedBox(),
-        ),
-        ResponsiveLayoutBuilder(
-          large: (_, __) => Align(
-            alignment: Alignment.topRight,
-            child: Image.asset(
-              'assets/backgrounds/circle_object.png',
-              filterQuality: FilterQuality.high,
-            ),
-          ),
-          small: (_, __) => const SizedBox(),
         ),
       ],
     );

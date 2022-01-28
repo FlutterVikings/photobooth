@@ -118,7 +118,7 @@ class DesktopButtonsLayout extends StatelessWidget {
         const SizedBox(width: 36),
         Flexible(child: ShareButton(image: image)),
         const SizedBox(width: 36),
-        const GoToGoogleIOButton(),
+        const GoToFlutterVikingsButton(),
       ],
     );
   }
@@ -144,7 +144,7 @@ class MobileButtonsLayout extends StatelessWidget {
         const SizedBox(height: 20),
         ShareButton(image: image),
         const SizedBox(height: 20),
-        const GoToGoogleIOButton(),
+        const GoToFlutterVikingsButton(),
       ],
     );
   }
@@ -163,6 +163,25 @@ class GoToGoogleIOButton extends StatelessWidget {
       onPressed: launchGoogleIOLink,
       child: Text(
         l10n.goToGoogleIOButtonText,
+        style: theme.textTheme.button?.copyWith(color: PhotoboothColors.black),
+      ),
+    );
+  }
+}
+
+@visibleForTesting
+class GoToFlutterVikingsButton extends StatelessWidget {
+  const GoToFlutterVikingsButton({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = context.l10n;
+    final theme = Theme.of(context);
+    return ElevatedButton(
+      style: ElevatedButton.styleFrom(primary: PhotoboothColors.white),
+      onPressed: launchFlutterVikingsLink,
+      child: Text(
+        l10n.goToFlutterVikingsButtonText,
         style: theme.textTheme.button?.copyWith(color: PhotoboothColors.black),
       ),
     );

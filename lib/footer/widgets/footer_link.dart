@@ -116,8 +116,8 @@ class FooterHowItsMadeLink extends StatelessWidget {
   }
 }
 
-class FooterTermsOfServiceLink extends StatelessWidget {
-  const FooterTermsOfServiceLink({
+class FooterFlutterVikingsLink extends StatelessWidget {
+  const FooterFlutterVikingsLink({
     Key? key,
   }) : super(key: key);
 
@@ -126,24 +126,9 @@ class FooterTermsOfServiceLink extends StatelessWidget {
     final l10n = context.l10n;
 
     return FooterLink(
-      link: 'https://policies.google.com/terms',
-      text: l10n.footerTermsOfServiceLinkText,
-    );
-  }
-}
-
-class FooterPrivacyPolicyLink extends StatelessWidget {
-  const FooterPrivacyPolicyLink({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    final l10n = context.l10n;
-
-    return FooterLink(
-      link: 'https://policies.google.com/privacy',
-      text: l10n.footerPrivacyPolicyLinkText,
+      link:
+          'https://fluttervikings.com',
+      text: l10n.footerFlutterVikingsLinkText,
     );
   }
 }
