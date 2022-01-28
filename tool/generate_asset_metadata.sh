@@ -35,18 +35,6 @@ for character in "${characters[@]}"; do
     echo "  static const $name = Asset(name: '$name', path: '$path', size: Size($width, $height),);"
 done
 
-googleProps=assets/props/google/*.png
-
-echo "  static const googleProps = {"
-for prop in $googleProps; do
-    width=$(sips -g pixelWidth $prop | tail -n1 | cut -d" " -f4)
-    height=$(sips -g pixelHeight $prop | tail -n1 | cut -d" " -f4)
-    name=$(basename "${prop%.*}")
-    echo "    Asset(name: '$name', path: '$prop', size: Size($width, $height),),"
-done
-
-echo "  };"
-
 vikingsProps=assets/props/vikings/*.png
 
 echo "  static const vikingsProps = {"
@@ -107,6 +95,6 @@ done
 
 echo "  };"
 
-echo "  static const props = {...vikingsProps, ...googleProps, ...eyewearProps, ...hatProps, ...foodProps, ...shapeProps};"
+echo "  static const props = {...vikingsProps, ...eyewearProps, ...hatProps, ...foodProps, ...shapeProps};"
 
 echo "}"
