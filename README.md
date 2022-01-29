@@ -1,4 +1,6 @@
-# I/O Photo Booth
+# Flutter Vikings Photo Booth
+
+This is a Fork of the project that was done for i/o 2021, read the info below. 
 
 [![Photo Booth Header][logo]][photo_booth_link]
 
