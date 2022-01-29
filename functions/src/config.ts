@@ -8,4 +8,6 @@ export const ALLOWED_HOSTS = [
   'us-central1-io-photobooth-dev.cloudfunctions.net',
   'us-central1-io-photo-booth.cloudfunctions.net',
   'photobooth.flutter.dev',
+  'photobooth.fluttervikings.com',
+  'flutter-vikings-photobooth.web.app'
 ];
